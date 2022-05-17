@@ -1,0 +1,60 @@
+body{
+    background: rgb(254, 254, 254);
+    text-align: left;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+input[type="number"]{
+    width: 40px;
+    text-align: right;
+}
+
+input[type="button"]{
+    background: #555353;
+    border: none;
+    padding: 10px 35px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 6px;
+}
+
+input[type="button"]:hover{
+    opacity: 0.8;
+}
+
+#table th,tr:nth-child(even){
+	background: #555353;
+    color:#fff;
+}
+
+th, tr, td{
+    width: 25px ;
+    border-collapse: separate;
+    border-spacing: 1px,1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#res{
+    width: 575px;
+    border-collapse: separate;
+    border-spacing: 1px,1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+table{
+    margin-top: 2%;
+    margin-left: 0%;
+    display: table;
+}
+
+.wrapper tr:hover{
+    background-color: gainsboro;
+}
